@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа программирования IT-HUB</title>
+    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/wow.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">    
+    <link rel="shortcut icon" href="img/img-content.png">
+</head>
+<body>
+  <header class="my-header person">
+    <div>
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+    </div>
+    <div class="user mii">
+    <form id="app-cover">
+                <div id="select-box">
+                        <input type="checkbox" id="options-view-button">
+                        <div id="select-button" class="brd">
+                                <div id="selected-value">
+                                <span><img style="margin-top: -20%;" src="img/my-curses/user.png" alt=""></span>
+                                </div>
+                                <div id="chevrons">
+                                    <i style="color: white;" class="fas fa-caret-down"></i>                                        </div>
+                        </div>
+                        <div id="options">
+                                <div class="option">
+                                        <i style="color: #99C911;" class="fas fa-user"></i>
+                                        <span class="label"><a href="mycurses.html">Жакшылык</a></span>
+                                        <span class="opt-val">Jakshylyk</span>
+                                </div>
+                                <div class="option">
+                                        <input class="s-c bottom" type="radio" name="platform" value="dribbble">
+                                        <i style="color: #99C911;" class="fas fa-key"></i>
+                                        <span class="label"><a href="">Изменить пароль</a> </span>
+                                        <span class="opt-val">Изменить пароль</span>
+                                </div>
+                                <div class="option">
+                                        <input class="s-c bottom" type="radio" name="platform" value="behance">
+                                        <i style="color: #99C911;"  class="fas fa-user-cog"></i>
+                                        <span class="label"><a href="">Настройки профиля</a> </span>
+                                        <span class="opt-val">Настройки профиля</span>
+                                </div>
+                                <div class="option">
+                                        <input class="s-c bottom" type="radio" name="platform" value="hackerrank">
+                                        <i style="color: #99C911;" class="fas fa-book-open"></i>
+                                        <span class="label"><a href="">Мои курсы</a>  </span>
+                                        <span class="opt-val">Мои курсы </span>
+                                </div>
+                                <div class="option">
+                                        <i style="color: #99C911;" class="fas fa-chevron-left"></i>
+                                        <span class="label"><a href="personal.html">Мои курсы</a> </span>
+                                        <span class="opt-val"><a  target="_blank" href="index.html"></a> Мои курсы </span>
+                                </div>
+                                <!-- <div class="option">
+                                        <input class="s-c top" type="radio" name="platform" value="freecodecamp">
+                                        <input class="s-c bottom" type="radio" name="platform" value="freecodecamp">
+                                        <i class="fab fa-free-code-camp"></i>
+                                        <span class="label">FreeCodeCamp</span>
+                                        <span class="opt-val">FreeCodeCamp</span>
+                                </div> -->
+                                <div id="option-bg"></div>
+                        </div>
+                </div>
+        </form>
+    </div>
+</header>
+    <section class="content-personal ">
+        <div class="flex container">
+            <div class="one">
+                <div class="videos">
+                      <video autoplay muted controls loop>
+                    <source src="vidoes/IT hub - Кто мы, что мы.mp4" type="video/mp4">
+                    <source src="vidoes/IT hub - Кто мы, что мы.mp4" type="video/ogg">
+                  </video>
+                </div>
+                <div class="navs">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">Описание </a></li>
+                        <li><a data-toggle="tab" href="#menu1">Задании</a></li>
+                        <li><a data-toggle="tab" href="#menu2">Дополнительные  </a></li>
+                      </ul>
+                      <div class="tab-content"> 
+                        <div id="home" class="tab-pane fade in active">
+                          <h3>Описание </h3>
+                          <p>
+                            Что будет на курсе? <br>
+                            
+                            <br>  1. В первой части мы узнаем кто такой frontend разработчик, познакомимся инструментами и изучим синтаксис HTML
+                            
+                            <br>  2. Во второй части мы перейдем к знакомству с CSS, узнаем о приоритетах стилей, посмотрим на панель разработчика, узнаем базовые свойства, поработаем с позиционированием и изучим Flexbox.
+                            
+                            <br>  3. В третьей части мы сверстаем небольшую страницу где применим все то что прошли ранее. 
+                            
+                            <br> 4. Верстка проекта по макету.
+                            
+                            <br> 5. В четвертой части курса мы познакомимся с основами CSS Grid.
+                            
+                            <br> Для кого этот курс?
+                            
+                            <br> Этот курс для тех кто никогда еще не занимался web-разработкой и хочет начать знакомство с самых азов.
+                            <br> Чему вы научитесь
+                            <br> Познакомимся с основами HTML
+                            <br> Познакомимся с основами CSS
+                            <br> Изучим основные свойства Flexbox
+                            <br> Познакомимся с основами CSS Grid
+                            <br> Сверстаем несколько небольших страниц
+                            <br> Верстка проекта по макету
+                            <br>Существуют ли у курса какие-либо (предварительные) требования?
+                            <br>Желание и наличие компьютера.
+                            <br>Для кого этот курс:
+                            <br>начинающие разработчики
+                            <br> люди без опыта разработки</p>
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                            <h3>Домашнее задание</h3>
+                            <p>
+                              Что будет на курсе? <br>
+                              
+                              <br>  1. В первой части мы узнаем кто такой frontend разработчик, познакомимся инструментами и изучим синтаксис HTML
+                              
+                              <br>  2. Во второй части мы перейдем к знакомству с CSS, узнаем о приоритетах стилей, посмотрим на панель разработчика, узнаем базовые свойства, поработаем с позиционированием и изучим Flexbox.
+                              
+                              <br>  3. В третьей части мы сверстаем небольшую страницу где применим все то что прошли ранее. 
+                              
+                              <br> 4. Верстка проекта по макету.
+                              
+                              <br> 5. В четвертой части курса мы познакомимся с основами CSS Grid.
+                              
+                              <br> Для кого этот курс?
+                              
+                              <br> Этот курс для тех кто никогда еще не занимался web-разработкой и хочет начать знакомство с самых азов. 
+                              <br> Чему вы научитесь
+                              <br> Познакомимся с основами HTML
+                              <br> Познакомимся с основами CSS
+                              <br> Изучим основные свойства Flexbox
+                              <br> Познакомимся с основами CSS Grid
+                              <br> Сверстаем несколько небольших страниц
+                              <br> Верстка проекта по макету
+                              <br>Существуют ли у курса какие-либо (предварительные) требования?
+                              <br>Желание и наличие компьютера.
+                              <br>Для кого этот курс:
+                              <br>начинающие разработчики
+                              <br> люди без опыта разработки</p>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <h3>Дополнительные   </h3>
+                            <p>
+                              Что будет на курсе? <br>
+                              
+                              <br>  1. В первой части мы узнаем кто такой frontend разработчик, познакомимся инструментами и изучим синтаксис HTML
+                              
+                              <br>  2. Во второй части мы перейдем к знакомству с CSS, узнаем о приоритетах стилей, посмотрим на панель разработчика, узнаем базовые свойства, поработаем с позиционированием и изучим Flexbox.
+                              
+                              <br>  3. В третьей части мы сверстаем небольшую страницу где применим все то что прошли ранее. 
+                              
+                              <br> 4. Верстка проекта по макету.
+                              
+                              <br> 5. В четвертой части курса мы познакомимся с основами CSS Grid.
+                              
+                              <br> Для кого этот курс?
+                              
+                              <br> Этот курс для тех кто никогда еще не занимался web-разработкой и хочет начать знакомство с самых азов.   
+                              <br> Чему вы научитесь
+                              <br> Познакомимся с основами HTML
+                              <br> Познакомимся с основами CSS
+                              <br> Изучим основные свойства Flexbox
+                              <br> Познакомимся с основами CSS Grid
+                              <br> Сверстаем несколько небольших страниц
+                              <br> Верстка проекта по макету
+                              <br>Существуют ли у курса какие-либо (предварительные) требования?
+                              <br>Желание и наличие компьютера.
+                              <br>Для кого этот курс:
+                              <br>начинающие разработчики
+                              <br> люди без опыта разработки</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="footer-personal">
+                    <div>
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div>
+                        <p>
+                            Авторские права © 2020 Udemy, Inc.
+    Условия пользования Политика конфиденциальности и Политика использования файлов cookie 
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="two">
+                <section class="container caf wow fadeInUp" id="yak3">
+                    <div class="c-text">
+                      <p>
+                        Материалы курса
+                      </p>
+                    </div>
+                    <section class="faq">
+                      <div class="">
+                        <ul class="faq-list">
+                          <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+                            <a data-toggle="collapse" class="collapsed" href="#faq1" aria-expanded="false">
+                              <h5>Раздел 1. Основы CSS
+                              </h5>
+                              <i class="fas fa-arrow-up"></i></a>
+                            <div id="faq1" class="collapse" data-parent=".faq-list">
+                              <a href="">1. Синтаксис CSS. Подключение стилей</a>
+                              <a href="">2. Панель разработчика</a>
+                              <a href="">3. Приоритеты стилей</a>
+                            </div>
+                          </li>
+                
+                          <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+                            <a data-toggle="collapse" href="#faq2" class="collapsed">
+                             <h5>Раздел 2. Верстка страницы
+                            </h5> 
+                              <i class="fas fa-arrow-up"></i></a>
+                            <div id="faq2" class="collapse" data-parent=".faq-list">
+                                <a href="">1. Синтаксис CSS. Подключение стилей</a>
+                              <a href="">2. Панель разработчика</a>
+                              <a href="">3. Приоритеты стилей</a>
+                            </div>
+                          </li>
+                
+                          <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+                            <a data-toggle="collapse" href="#faq3" class="collapsed">
+                                <h5>Раздел 2. Верстка страницы
+                                </h5>                               
+                                <i class="fas fa-arrow-up"></i></a>
+                            <div id="faq3" class="collapse" data-parent=".faq-list">
+                                <a href="">1. Синтаксис CSS. Подключение стилей</a>
+                                <a href="">2. Панель разработчика</a>
+                                <a href="">3. Приоритеты стилей</a>
+                            </div>
+                          </li>
+                
+                          <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">
+                            <a data-toggle="collapse" href="#faq4" class="collapsed">
+                                <h5>Раздел 4. Верстка страницы
+                                </h5>  
+                              <i class="fas fa-arrow-up"></i></a>
+                            <div id="faq4" class="collapse" data-parent=".faq-list">
+                              <p>
+                                Дальнейшая карьера: Профиль прикладная информатика в менеджменте позволит вам работать в:
+                
+                                - в коммерческих компаниях, активно применяющих технологии ИНТЕРНЕТ;
+                                
+                                - в ИТ-подразделениях;
+                                
+                                - в подразделениях, управляющих информационными ресурсами и работающих в области интеллектуального анализа данных;
+                                
+                                - в органах управления на предприятиях: администрации, бухгалтерии, экономических отделах.
+                                
+                                Все занятия проводятся в компьютерных классах (кроме паточных лекций), преподаватели кафедры владеют инновационными методами обучения. 3 компьютерных класса оснащены интерактивной доской и бимером. 
+                                
+                                Полученное образование позволит выпускникам работать практически в любой области, требующей знания вычислительной техники, вычислительных систем и технологий.
+                                
+                                Парк персональных компьютеров кафедры составляет 6 компьютерных классов, которые подключены к безлимитной сети Интернет и оснащены современными оборудованиями, имеется лицензионное программное обеспечение.              </p>
+                            </div>
+                          </li>
+                          <li data-aos="fade-up" data-aos-delay="500" class="aos-init aos-animate">
+                            <a data-toggle="collapse" href="#faq5" class="collapsed">
+                                <h5>Раздел 5. Верстка страницы
+                                </h5>  
+                              <i class="fas fa-arrow-up"></i></a>
+                            <div id="faq5" class="collapse" data-parent=".faq-list">
+                              <p>
+                                Дальнейшая карьера: Профиль прикладная информатика в менеджменте позволит вам работать в:
+                
+                                - в коммерческих компаниях, активно применяющих технологии ИНТЕРНЕТ;
+                                
+                                - в ИТ-подразделениях;
+                                
+                                - в подразделениях, управляющих информационными ресурсами и работающих в области интеллектуального анализа данных;
+                                
+                                - в органах управления на предприятиях: администрации, бухгалтерии, экономических отделах.
+                                
+                                Все занятия проводятся в компьютерных классах (кроме паточных лекций), преподаватели кафедры владеют инновационными методами обучения. 3 компьютерных класса оснащены интерактивной доской и бимером. 
+                                
+                                Полученное образование позволит выпускникам работать практически в любой области, требующей знания вычислительной техники, вычислительных систем и технологий.
+                                
+                                Парк персональных компьютеров кафедры составляет 6 компьютерных классов, которые подключены к безлимитной сети Интернет и оснащены современными оборудованиями, имеется лицензионное программное обеспечение.              </p>
+                            </div>
+                          </li>
+                          <li data-aos="fade-up" data-aos-delay="600" class="aos-init aos-animate">
+                            <a data-toggle="collapse" href="#faq6" class="collapsed">
+                                <h5>Раздел 6. Верстка страницы
+                                </h5>  
+                              <i class="fas fa-arrow-up"></i></a>
+                            <div id="faq6" class="collapse" data-parent=".faq-list">
+                              <p>
+                                Дальнейшая карьера: Профиль прикладная информатика в менеджменте позволит вам работать в:
+                
+                                - в коммерческих компаниях, активно применяющих технологии ИНТЕРНЕТ;
+                                
+                                - в ИТ-подразделениях;
+                                
+                                - в подразделениях, управляющих информационными ресурсами и работающих в области интеллектуального анализа данных;
+                                
+                                - в органах управления на предприятиях: администрации, бухгалтерии, экономических отделах.
+                                
+                                Все занятия проводятся в компьютерных классах (кроме паточных лекций), преподаватели кафедры владеют инновационными методами обучения. 3 компьютерных класса оснащены интерактивной доской и бимером. 
+                                
+                                Полученное образование позволит выпускникам работать практически в любой области, требующей знания вычислительной техники, вычислительных систем и технологий.
+                                
+                                Парк персональных компьютеров кафедры составляет 6 компьютерных классов, которые подключены к безлимитной сети Интернет и оснащены современными оборудованиями, имеется лицензионное программное обеспечение.              </p>
+                            </div>
+                          </li>
+                          <li data-aos="fade-up" data-aos-delay="700" class="aos-init aos-animate">
+                            <a data-toggle="collapse" href="#faq7" class="collapsed">
+                                <h5>Раздел 7. Верстка страницы
+                                </h5>  
+                              <i class="fas fa-arrow-up"></i></a>
+                            <div id="faq7" class="collapse" data-parent=".faq-list">
+                              <p>
+                                Дальнейшая карьера: Профиль прикладная информатика в менеджменте позволит вам работать в:
+                
+                                - в коммерческих компаниях, активно применяющих технологии ИНТЕРНЕТ;
+                                
+                                - в ИТ-подразделениях;
+                                
+                                - в подразделениях, управляющих информационными ресурсами и работающих в области интеллектуального анализа данных;
+                                
+                                - в органах управления на предприятиях: администрации, бухгалтерии, экономических отделах.
+                                
+                                Все занятия проводятся в компьютерных классах (кроме паточных лекций), преподаватели кафедры владеют инновационными методами обучения. 3 компьютерных класса оснащены интерактивной доской и бимером. 
+                                
+                                Полученное образование позволит выпускникам работать практически в любой области, требующей знания вычислительной техники, вычислительных систем и технологий.
+                                
+                                Парк персональных компьютеров кафедры составляет 6 компьютерных классов, которые подключены к безлимитной сети Интернет и оснащены современными оборудованиями, имеется лицензионное программное обеспечение.              </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                    
+                  </section>
+            </div>
+        </div>
+        <footer class="footer-o">
+          <div>
+              <p>Контакты</p>
+              <p>+996(507)550-111
+              </p>
+              <p>
+                  +996(507)550-111
+              </p>
+              <p>
+                  +996(507)550-111
+              </p>
+          </div>
+          <div>
+              <p>EMAIL</p>
+              <p>ithub.kg@gmail.com</p>
+          </div>
+          <div>
+              <p>СОЦИАЛЬНЫЕ СЕТИ</p>
+              <div class="media-flex">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+              </div>
+          </div>
+          <div>
+              <p>Наш адрес </p>
+              <p>г. Бишкек , ул.Фурманова 106</p>
+          </div>
+      </footer>
+    </section>
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+      </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
